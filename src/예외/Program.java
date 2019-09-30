@@ -22,6 +22,7 @@ public class Program {
 		}
 		finally {
 			// ㅁ니아ㅓㄹ미나ㅓㅇ림나ㅓㅇ;미나ㅓㄹ;ㅁ니ㅓ아;ㅁ니ㅓ라
+			//asdjfaslkjdaslkdjlasjfl;askjf;laskjdlkjflkdasjf;laskjdf
 			//파일을 닫아야 하는 코드
 			System.out.println("finally....");
 		}
