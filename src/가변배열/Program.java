@@ -1,4 +1,4 @@
-package °¡º¯¹è¿­;
+package ê°€ë³€ë°°ì—´;
 
 import java.util.Scanner;
 
@@ -10,12 +10,12 @@ public class Program {
 		
 		//ObjectList list = new ObjectList();
 		GList<Exam> list = new GList();
-		// ¸ğµç °ÍÀ» ´ã´Â °ÍÀº? ´ÜÁ¡ÀÏ ¼ö ÀÖ´Ù.
+		// ëª¨ë“  ê²ƒì„ ë‹´ëŠ” ê²ƒì€? ë‹¨ì ì¼ ìˆ˜ ìˆë‹¤.
 		list.add("hello");
 		list.add(30);
 		list.add(new Exam());
 		
-		// ¼­ºñ½º ÇÔ¼ö¸¦ »ç¿ëÇÏ·Á¸é? Çü½ÄÀ» º¯È¯ÇØ¾ß ÇÑ´Ù.
+		// ì„œë¹„ìŠ¤ í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•˜ë ¤ë©´? í˜•ì‹ì„ ë³€í™˜í•´ì•¼ í•œë‹¤.
 		list.get(2).input();
 		//((Exam)list.get(2)).input();
 		//((Exam)list.get(2)).print();
@@ -30,7 +30,7 @@ public class Program {
 		//Scanner scan = new Scanner(System.in);
 		
 		//do {
-			//input(data/*ÂüÁ¶Àü´Ş*/, index/*°ªÀü´Ş*/);
+			//input(data/*ì°¸ì¡°ì „ë‹¬*/, index/*ê°’ì „ë‹¬*/);
 		//	input(list);	
 			//print(data, index);
 		//	print(list);
@@ -45,7 +45,7 @@ public class Program {
 		
 		list.add(scan.nextInt());
 		//data[index] = scan.nextInt();
-		//index++;// ´ÙÀ½ °ªÀ» ÀúÀåÇÒ À§Ä¡ == ÀÔ·ÂµÈ °ªÀÇ °³¼ö
+		//index++;// ë‹¤ìŒ ê°’ì„ ì €ì¥í•  ìœ„ì¹˜ == ì…ë ¥ëœ ê°’ì˜ ê°œìˆ˜
 	}
 
 	private static void print(ObjectList list) {

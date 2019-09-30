@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -52,12 +52,12 @@ public class Kid {
 		
 		int sx = imgIndex*w;
 		g.drawImage(img
-							// È­¸é ÁÂÇ¥
+							// í™”ë©´ ì¢Œí‘œ
 							, x-OFFSET_LEFT
 							, y-OFFSET_TOP
 							, x+w-OFFSET_LEFT
 							, y+h-OFFSET_TOP
-							// ÀÌ¹ÌÁö ÁÂÇ¥
+							// ì´ë¯¸ì§€ ì¢Œí‘œ
 							, sx, 0, sx+w, h
 							, roleCanvas);
 		

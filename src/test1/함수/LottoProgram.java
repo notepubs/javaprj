@@ -1,13 +1,13 @@
-package test1.ÇÔ¼ö;
+package test1.í•¨ìˆ˜;
 
 import java.util.Scanner;
 
 public class LottoProgram {
 
 	public static void main(String[] args) {		
-		// µ¥ÀÌÅÍ 
+		// ë°ì´í„° 
 		int[] lotto = new int[6];		
-		// ±â´É(¾Ë°í¸®Áò)
+		// ê¸°ëŠ¥(ì•Œê³ ë¦¬ì¦˜)
 		printMenu();
 		switch(inputMenu()) {
 		case 1:
@@ -51,13 +51,13 @@ public class LottoProgram {
 	}
 
 	private static void printMenu() {
-		System.out.println("¦£¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¤");
-		System.out.println("¦¢       ·Î¶Ç ¸ŞÀÎ ¸Ş´º      ¦¢");
-		System.out.println("¦¦¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¥");
+		System.out.println("â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”");
+		System.out.println("â”‚       ë¡œë˜ ë©”ì¸ ë©”ë‰´      â”‚");
+		System.out.println("â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜");
 		System.out.println();
-		System.out.println("\t1. ¼öµ¿");
-		System.out.println("\t2. ÀÚµ¿");
-		System.out.println("\t3. Á¾·á");
+		System.out.println("\t1. ìˆ˜ë™");
+		System.out.println("\t2. ìë™");
+		System.out.println("\t3. ì¢…ë£Œ");
 		
 	}
 

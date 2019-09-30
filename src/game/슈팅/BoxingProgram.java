@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,26 +11,26 @@ public class BoxingProgram {
 
 	public static void main(String[] args) {
 		
-		// ¹è¿­ ... ÀÇ ´ëÃ¼Á¦...
-		// µ¥ÀÌÅÍ¸¦ ½Äº°ÇÏ´Â ¹æ¹ý¿¡ Â÷ÀÌ¸¦ µÎ°í ÀÖ´Â °è¿­µé
-		// 1. µ¥ÀÌÅÍ°¡ °ð ½Äº°ÀÚ´Ù => Set °è¿­
+		// ë°°ì—´ ... ì˜ ëŒ€ì²´ì œ...
+		// ë°ì´í„°ë¥¼ ì‹ë³„í•˜ëŠ” ë°©ë²•ì— ì°¨ì´ë¥¼ ë‘ê³  ìžˆëŠ” ê³„ì—´ë“¤
+		// 1. ë°ì´í„°ê°€ ê³§ ì‹ë³„ìžë‹¤ => Set ê³„ì—´
 		Set set = new HashSet();     
 		set.add("hello");
 		set.add(37);
-		set.add("È£È£È£");
+		set.add("í˜¸í˜¸í˜¸");
 		set.add(37);
-		set.add("È£È£È£");
+		set.add("í˜¸í˜¸í˜¸");
 		
 		for(Object obj : set)
 			System.out.println(obj);
 		
-		// 2. µ¥ÀÌÅÍÀÇ ¼ø¼­°¡ °ð ½Äº°ÀÚ´Ù => List °è¿­
+		// 2. ë°ì´í„°ì˜ ìˆœì„œê°€ ê³§ ì‹ë³„ìžë‹¤ => List ê³„ì—´
 		List list = new ArrayList();
 		list.add("hello");
 		list.add(37);
-		list.add("È£È£È£");
+		list.add("í˜¸í˜¸í˜¸");
 		list.add(37);
-		list.add("È£È£È£");
+		list.add("í˜¸í˜¸í˜¸");
 		
 		for(int i=0; i<list.size(); i++)
 			System.out.println(list.get(i));
@@ -38,7 +38,7 @@ public class BoxingProgram {
 		for(Object obj : list)
 			System.out.println(obj);
 		
-		// 3. µ¥ÀÌÅÍÀÇ ½Äº°ÀÚ°¡ µû·Î ÀÖ´Ù. => Map °è¿­
+		// 3. ë°ì´í„°ì˜ ì‹ë³„ìžê°€ ë”°ë¡œ ìžˆë‹¤. => Map ê³„ì—´
 		Map map = new HashMap();
 		map.put("kor", 20);
 		map.put("eng", 90);

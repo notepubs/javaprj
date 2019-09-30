@@ -1,13 +1,13 @@
-package °¡º¯¹è¿­;
+package ê°€ë³€ë°°ì—´;
 
-public class GList<¸íÈÆ> {
-	private ¸íÈÆ[] data;
+public class GList<ëª…í›ˆ> {
+	private ëª…í›ˆ[] data;
 	private int index;
 	private int max;
 	
 	public GList() {
 		max = 3;
-		data = (¸íÈÆ[]) new Object[max];
+		data = (ëª…í›ˆ[]) new Object[max];
 		index = 0;
 	}
 
@@ -15,27 +15,27 @@ public class GList<¸íÈÆ> {
 		return index;
 	}
 
-	public void add(¸íÈÆ value) {
+	public void add(ëª…í›ˆ value) {
 		
 		if(index >= max) {
-			//<<<< °ø°£ ´Ã·ÁÁÖ±â >>>			
-			//1. ÀÌÁÖÇÒ Object Çü½ÄÀÇ ¹è¿­À» max+5 Å©±â·Î temp¸¦  »ı¼º.
-			¸íÈÆ[] temp = (¸íÈÆ[]) new Object[max+5];			
-			//2. ** data¹è¿­ÀÇ °ªµéÀ» temp ¹è¿­·Î ¿Å±ä´Ù. **
+			//<<<< ê³µê°„ ëŠ˜ë ¤ì£¼ê¸° >>>			
+			//1. ì´ì£¼í•  Object í˜•ì‹ì˜ ë°°ì—´ì„ max+5 í¬ê¸°ë¡œ tempë¥¼  ìƒì„±.
+			ëª…í›ˆ[] temp = (ëª…í›ˆ[]) new Object[max+5];			
+			//2. ** dataë°°ì—´ì˜ ê°’ë“¤ì„ temp ë°°ì—´ë¡œ ì˜®ê¸´ë‹¤. **
 			for(int i=0; i<max; i++)
 				temp[i]=data[i];			
-			//3. temp ¹è¿­ÀÇ ÀÌ¸§À» data ¶ó´Â ÀÌ¸§À¸·Î º¯°æÇÑ´Ù.					
+			//3. temp ë°°ì—´ì˜ ì´ë¦„ì„ data ë¼ëŠ” ì´ë¦„ìœ¼ë¡œ ë³€ê²½í•œë‹¤.					
 			data = temp;
-			//4. maxÀÇ °ªÀ» + 5 Áõ°¡½ÃÅ²´Ù.
+			//4. maxì˜ ê°’ì„ + 5 ì¦ê°€ì‹œí‚¨ë‹¤.
 			max += 5;		
 			 
 		}
 		
 		data[index] = value;
-		index++;// ´ÙÀ½ °ªÀ» ÀúÀåÇÒ À§Ä¡ == ÀÔ·ÂµÈ °ªÀÇ °³¼ö
+		index++;// ë‹¤ìŒ ê°’ì„ ì €ì¥í•  ìœ„ì¹˜ == ì…ë ¥ëœ ê°’ì˜ ê°œìˆ˜
 	}
 	
-	public ¸íÈÆ get(int index)
+	public ëª…í›ˆ get(int index)
 	{
 		return data[index];
 	}

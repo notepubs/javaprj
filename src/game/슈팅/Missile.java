@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.awt.Graphics;
 import java.awt.Image;

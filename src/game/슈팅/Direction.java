@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 public enum Direction {
 	LEFT, UP, RIGHT, DOWN

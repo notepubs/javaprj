@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.awt.Canvas;
 import java.awt.Graphics;
@@ -12,16 +12,16 @@ import java.awt.event.MouseListener;
 public class ShuttingCanvas extends Canvas 
 	implements MouseListener, KeyListener {
 	
-	// ¾Æ±º±â
+	// ì•„êµ°ê¸°
 	private Fighter fighter;
 	//private int x;
 	//private int y;
 	//private Image img;
 	
-	// Àû±â
-	private int Àû±âx;
-	private int Àû±ây;
-	private Image Àû±âimg;
+	// ì ê¸°
+	private int ì ê¸°x;
+	private int ì ê¸°y;
+	private Image ì ê¸°img;
 	
 	public ShuttingCanvas() {
 		addMouseListener(this);
@@ -95,16 +95,16 @@ public class ShuttingCanvas extends Canvas
 	@Override
 	public void keyPressed(KeyEvent e) {
 		switch(e.getKeyCode()) {
-		case 37: // ¿ŞÂÊ
+		case 37: // ì™¼ìª½
 			//x-=3;
 			break;
-		case 38: // À§ÂÊ
+		case 38: // ìœ„ìª½
 			//y-=3;
 			break;
-		case 39: // ¿À¸¥ÂÊ
+		case 39: // ì˜¤ë¥¸ìª½
 			//x+=3;
 			break;
-		case 40: // ¾Æ·¡
+		case 40: // ì•„ë˜
 			//y+=3;
 			break;
 		}

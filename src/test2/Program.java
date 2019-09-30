@@ -18,16 +18,16 @@ public class Program {
 		fout.flush();
 		
 		fout.close();
-		System.out.println("ÀÛ¾÷ Á¾·á");
+		System.out.println("ì‘ì—… ì¢…ë£Œ");
 		
 		/*
-		// 1. ÆÄÀÏ ÀÔ·Â ½ºÆ®¸² fin °´Ã¼¸¦ »ı¼ºÇÒ °Í.
+		// 1. íŒŒì¼ ì…ë ¥ ìŠ¤íŠ¸ë¦¼ fin ê°ì²´ë¥¼ ìƒì„±í•  ê²ƒ.
 		FileInputStream fin = new FileInputStream("res/image.bmp");
-		// 2. ÆÄÀÏ¿¡¼­ Ã¹ ¹øÂ° 1¹ÙÀÌÆ®¸¦ ÀĞ¾î¼­ Ãâ·Â ÇÒ °Í.
+		// 2. íŒŒì¼ì—ì„œ ì²« ë²ˆì§¸ 1ë°”ì´íŠ¸ë¥¼ ì½ì–´ì„œ ì¶œë ¥ í•  ê²ƒ.
 		int value = fin.read();
 		System.out.println(value);
 		
-		// 3. ÆÄÀÏ ÀÔ·Â ½ºÆ®¸²À» ´İÀ» °Í.
+		// 3. íŒŒì¼ ì…ë ¥ ìŠ¤íŠ¸ë¦¼ì„ ë‹«ì„ ê²ƒ.
 		fin.close();
 		*/
 

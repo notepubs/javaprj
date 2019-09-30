@@ -20,7 +20,7 @@ public class CopyProgram {
 		fin.close();
 		fos.close();
 		
-		System.out.println("º¹»ç¿Ï·á");
+		System.out.println("ë³µì‚¬ì™„ë£Œ");
 		
 
 	}

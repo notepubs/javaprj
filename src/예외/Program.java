@@ -1,8 +1,8 @@
-package ¿¹¿Ü;
+package ì˜ˆì™¸;
 
 import java.io.FileInputStream;
 
-// ÀÀ¿ë ÇÁ·Î±×·¥
+// ì‘ìš© í”„ë¡œê·¸ë¨
 public class Program {
 	
 	public static void main(String[] args) {
@@ -12,21 +12,21 @@ public class Program {
 			int sum = Calculator.add(10004, 3);
 			System.out.printf("sum : %d\n", sum);
 		}
-		catch (³Ê¹«Ä¿¼­¹İÈ¯ÇÒ¼ö¾øÀº¿¹¿Ü e) {
+		catch (ë„ˆë¬´ì»¤ì„œë°˜í™˜í• ìˆ˜ì—†ì€ì˜ˆì™¸ e) {
 			System.out.println("aaa:"
 						+e.getMessage());
 		}
 		catch(Exception aaa) {
-			System.out.println("ÁË¼ÛÇÕ´Ï´Ù. \n"
-					+ "¿¹±âÄ¡ ¾Ê°Ô ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.");			
+			System.out.println("ì£„ì†¡í•©ë‹ˆë‹¤. \n"
+					+ "ì˜ˆê¸°ì¹˜ ì•Šê²Œ ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.");			
 		}
 		finally {
-			// ¤±´Ï¾Æ¤Ã¤©¹Ì³ª¤Ã¤·¸²³ª¤Ã¤·;¹Ì³ª¤Ã¤©;¤±´Ï¤Ã¾Æ;¤±´Ï¤Ã¶ó
+			// ã…ë‹ˆì•„ã…“ã„¹ë¯¸ë‚˜ã…“ã…‡ë¦¼ë‚˜ã…“ã…‡;ë¯¸ë‚˜ã…“ã„¹;ã…ë‹ˆã…“ì•„;ã…ë‹ˆã…“ë¼
 			//asdjfaslkjdaslkdjlasjfl;askjf;laskjdlkjflkdasjf;laskjdf
-			//ÆÄÀÏÀ» ´İ¾Æ¾ß ÇÏ´Â ÄÚµå
+			//íŒŒì¼ì„ ë‹«ì•„ì•¼ í•˜ëŠ” ì½”ë“œ
 			System.out.println("finally....");
 		}
 		
-		System.out.println("Á¾·áµÇ¾ú³ª?");		
+		System.out.println("ì¢…ë£Œë˜ì—ˆë‚˜?");		
 	}
 }

@@ -14,13 +14,13 @@ public class ExamProgram {
 				
 		Exam exam = new Exam();
 		
-		//exam.init();// ÃÊ±âÈ­¸¦ °­Á¦ÇÒ ¼ö ¾øÀ½.
+		//exam.init();// ì´ˆê¸°í™”ë¥¼ ê°•ì œí•  ìˆ˜ ì—†ìŒ.
 		
 		
-		//Exam.input(exam); // ¼ºÀû(À») ÀÔ·Â
+		//Exam.input(exam); // ì„±ì (ì„) ì…ë ¥
 		//exam.input();
 		
-		Exam.print(exam); // ¼ºÀû(À») Ãâ·Â
+		Exam.print(exam); // ì„±ì (ì„) ì¶œë ¥
 		
 	}
 

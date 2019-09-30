@@ -1,4 +1,4 @@
-package °¡º¯¹è¿­;
+package ê°€ë³€ë°°ì—´;
 
 public class ObjectList {
 	private Object[] data;
@@ -18,21 +18,21 @@ public class ObjectList {
 	public void add(Object value) {
 		
 		if(index >= max) {
-			//<<<< °ø°£ ´Ã·ÁÁÖ±â >>>			
-			//1. ÀÌÁÖÇÒ Object Çü½ÄÀÇ ¹è¿­À» max+5 Å©±â·Î temp¸¦  »ý¼º.
+			//<<<< ê³µê°„ ëŠ˜ë ¤ì£¼ê¸° >>>			
+			//1. ì´ì£¼í•  Object í˜•ì‹ì˜ ë°°ì—´ì„ max+5 í¬ê¸°ë¡œ tempë¥¼  ìƒì„±.
 			Object[] temp = new Object[max+5];			
-			//2. ** data¹è¿­ÀÇ °ªµéÀ» temp ¹è¿­·Î ¿Å±ä´Ù. **
+			//2. ** dataë°°ì—´ì˜ ê°’ë“¤ì„ temp ë°°ì—´ë¡œ ì˜®ê¸´ë‹¤. **
 			for(int i=0; i<max; i++)
 				temp[i]=data[i];			
-			//3. temp ¹è¿­ÀÇ ÀÌ¸§À» data ¶ó´Â ÀÌ¸§À¸·Î º¯°æÇÑ´Ù.					
+			//3. temp ë°°ì—´ì˜ ì´ë¦„ì„ data ë¼ëŠ” ì´ë¦„ìœ¼ë¡œ ë³€ê²½í•œë‹¤.					
 			data = temp;
-			//4. maxÀÇ °ªÀ» + 5 Áõ°¡½ÃÅ²´Ù.
+			//4. maxì˜ ê°’ì„ + 5 ì¦ê°€ì‹œí‚¨ë‹¤.
 			max += 5;		
 			 
 		}
 		
 		data[index] = value;
-		index++;// ´ÙÀ½ °ªÀ» ÀúÀåÇÒ À§Ä¡ == ÀÔ·ÂµÈ °ªÀÇ °³¼ö
+		index++;// ë‹¤ìŒ ê°’ì„ ì €ìž¥í•  ìœ„ì¹˜ == ìž…ë ¥ëœ ê°’ì˜ ê°œìˆ˜
 	}
 	
 	public Object get(int index)

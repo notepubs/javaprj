@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.awt.Canvas;
 import java.awt.Graphics;
@@ -101,7 +101,7 @@ public class RoleCanvas extends Canvas
 			kid.move(Direction.RIGHT);			
 			break;
 		case KeyEvent.VK_SPACE:
-			//if(3¹ø °£°İÀÌ µÇ¸é)
+			//if(3ë²ˆ ê°„ê²©ì´ ë˜ë©´)
 			Missile m = kid.fire();
 			//if(m != null)
 				missiles.add(m);

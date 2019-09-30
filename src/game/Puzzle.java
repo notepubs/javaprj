@@ -34,8 +34,8 @@ public class Puzzle {
 	}
 
 	public void draw(Graphics g, PuzzleCanvas puzzleCanvas) {
-		g.drawImage(img,x,y,x+w,y+h  				// È­¸é
-							, sx,sy,sx+w,sy+h 				// ÀÌ¹ÌÁö
+		g.drawImage(img,x,y,x+w,y+h  				// í™”ë©´
+							, sx,sy,sx+w,sy+h 				// ì´ë¯¸ì§€
 							,puzzleCanvas);
 	}
 	

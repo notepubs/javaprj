@@ -1,9 +1,9 @@
-package ¿¹¿Ü;
+package ì˜ˆì™¸;
 
-public class ³Ê¹«Ä¿¼­¹İÈ¯ÇÒ¼ö¾øÀº¿¹¿Ü extends Exception {
+public class ë„ˆë¬´ì»¤ì„œë°˜í™˜í• ìˆ˜ì—†ì€ì˜ˆì™¸ extends Exception {
 	@Override
 	public String getMessage() {
 		
-		return "10000À» ³Ñ´Â °ªÀÌ ¹İÈ¯µÇ¾î¼­´Â ¾ÈµÇ´Â ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.";
+		return "10000ì„ ë„˜ëŠ” ê°’ì´ ë°˜í™˜ë˜ì–´ì„œëŠ” ì•ˆë˜ëŠ” ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.";
 	}
 }

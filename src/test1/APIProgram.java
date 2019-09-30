@@ -9,13 +9,13 @@ public class APIProgram {
 
 	public static void main(String[] args) throws IOException {
 		//System.out;
-		//ÀÚ·áÇü½Ä
-		//¿¬»êÀÚ(»ê¼ú,ºñ±³,°ü°è,ºñÆ®)
-		//Á¦¾î±¸Á¶(if,else,else if, switch, for, while, do-while)
+		//ìë£Œí˜•ì‹
+		//ì—°ì‚°ì(ì‚°ìˆ ,ë¹„êµ,ê´€ê³„,ë¹„íŠ¸)
+		//ì œì–´êµ¬ì¡°(if,else,else if, switch, for, while, do-while)
 		//+
-		//ÀÔ/Ãâ·Â µµ±¸(API) : ÄÜ¼Ö,ÆÄÀÏ
+		//ì…/ì¶œë ¥ ë„êµ¬(API) : ì½˜ì†”,íŒŒì¼
 		
-		//¹è¿­
+		//ë°°ì—´
 		
 		//System.in;
 		

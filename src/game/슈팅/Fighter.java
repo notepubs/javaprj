@@ -1,4 +1,4 @@
-package game.½´ÆÃ;
+package game.ìŠˆíŒ…;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -44,8 +44,8 @@ public class Fighter {
 		x += vx;
 		y += vy;
 		
-		//vx, vy Å©±â¸¦ °¡Áö´Â ¹Ú½º¿¡ µµ´ŞÇÏ¸é
-		if(¸ñÀûÁö¿¡ µµ´ŞÇß´Ù¸é) {
+		//vx, vy í¬ê¸°ë¥¼ ê°€ì§€ëŠ” ë°•ìŠ¤ì— ë„ë‹¬í•˜ë©´
+		if(ëª©ì ì§€ì— ë„ë‹¬í–ˆë‹¤ë©´) {
 			vx = 0;
 			vy = 0;
 		}

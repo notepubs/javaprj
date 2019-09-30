@@ -1,4 +1,4 @@
-package test1.ÇÔ¼ö;
+package test1.í•¨ìˆ˜;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ public class CopyProgram {
 		fin.close();
 		fos.close();
 		
-		System.out.println("º¹»ç¿Ï·á");
+		System.out.println("ë³µì‚¬ì™„ë£Œ");
 		
 
 	}

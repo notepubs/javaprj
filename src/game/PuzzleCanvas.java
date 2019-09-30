@@ -60,8 +60,8 @@ public class PuzzleCanvas extends Canvas {
 			//int sy = (pos[i]/3)*200;
 						
 			puzzle.draw(g,this);
-			//g.drawImage(img,x,y,x+w,y+h  				// È­¸é
-			//						, sx,sy,sx+w,sy+h 				// ÀÌ¹ÌÁö
+			//g.drawImage(img,x,y,x+w,y+h  				// í™”ë©´
+			//						, sx,sy,sx+w,sy+h 				// ì´ë¯¸ì§€
 			//						,this);
 		}
 	}

@@ -1,12 +1,12 @@
-package ¿¹¿Ü;
+package ì˜ˆì™¸;
 
 // API
 public class Calculator {
-	public static int add(int x, int y) throws ³Ê¹«Ä¿¼­¹İÈ¯ÇÒ¼ö¾øÀº¿¹¿Ü{
+	public static int add(int x, int y) throws ë„ˆë¬´ì»¤ì„œë°˜í™˜í• ìˆ˜ì—†ì€ì˜ˆì™¸{
 		int result = x + y;
 		
 		if(result > 10000)
-			throw new ³Ê¹«Ä¿¼­¹İÈ¯ÇÒ¼ö¾øÀº¿¹¿Ü();
+			throw new ë„ˆë¬´ì»¤ì„œë°˜í™˜í• ìˆ˜ì—†ì€ì˜ˆì™¸();
 		
 		return result;
 	}
