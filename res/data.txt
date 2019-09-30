@@ -1,0 +1,18 @@
+12  23
+2  34
+3  44
+44  453
+5  3324
+
+CSV
+"dragon", "∏º  ¿Ω", "aa"
+"hello","ø¿»£","bb"
+
+
+
+XML
+<friend>
+	<id>dragon</id>
+	<status>∏º ¿Ω</status>
+	<etc>aa</etc>
+</friend>
