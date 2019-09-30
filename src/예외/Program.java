@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 public class Program {
 	
 	public static void main(String[] args) {
-		
+		//최승규 컴맹아님
 		try {
 			Thread.sleep(1000);
 			int sum = Calculator.add(10004, 3);
