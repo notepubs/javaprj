@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 public class Program {
 	
 	public static void main(String[] args) {
-		
+		// 승규야 컴맹은 면했네? 여기에 코드를 고쳐야 해...
 		try {
 			Thread.sleep(1000);
 			int sum = Calculator.add(10004, 3);
