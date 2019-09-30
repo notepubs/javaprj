@@ -7,7 +7,7 @@ public class Calculator {
 		
 		if(result > 10000)
 			throw new 너무커서반환할수없은예외();
-		
+		//최승규 짱 컴맹(=성격급합)
 		return result;
 	}
 	
